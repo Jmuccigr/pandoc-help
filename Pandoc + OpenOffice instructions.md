@@ -17,4 +17,4 @@ I'm assuming here that you're using [LibreOffice](http://libreoffice.org/). If n
 7. Make sure your OpenOffice template file has all the necessary styles that you named in default.opendocument.
 
 8. Bonus: Since I'm keeping all my bibliography in one .bib file, I've added an alias to the pandoc command that includes that file and the citeproc command:
-`alias pandoc=pandoc --reference-odt=/Users/username/Library/Application\ Support/LibreOffice/4/user/template/Your_template.ott --bibliography=~/Documents/My\ Library.bib`
+`alias pandoc='pandoc --reference-odt=/Users/username/Library/Application\ Support/LibreOffice/4/user/template/Your_template.ott --bibliography=~/Documents/My\ Library.bib'`
