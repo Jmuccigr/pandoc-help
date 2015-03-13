@@ -9,7 +9,17 @@ $endfor$
 $if(title)$
 <text:h text:style-name="Title">$title$</text:h>
 $endif$
-<text:h text:style-name="Author">$for(author)$$if(author.name)$$author.name$$if(author.affiliation)$ ($author.affiliation$)$endif$$else$$author$$endif$$endfor$</text:h>
+<text:h text:style-name="Author">
+$for(author)$
+$if(author.name)$
+  $author.name$
+$if(author.affiliation)$
+ ($author.affiliation$)$endif$
+$else$
+  $author$
+$endif$
+$sep$; 
+$endfor$</text:h>
 $if(date)$
 <text:p text:style-name="Date">$date$</text:p>
 $endif$
