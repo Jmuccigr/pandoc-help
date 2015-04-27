@@ -25,3 +25,5 @@ I'm assuming here that you're using [LibreOffice](http://libreoffice.org/). If n
 * Edit local default.opendocument to taste. (Mine has slots for more detailed author info, for example.)
 * Symlink the copy into the Pandoc templates folder with the name default.opendocument. This will now replace the original copy.
 * Make sure your OpenOffice template file has all the necessary styles that you named in default.opendocument.
+
+Reminder: updating pandoc will blow away any changes to the templates directory.
