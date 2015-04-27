@@ -2,7 +2,7 @@
 
 ## My set-up
 1. pandoc via homebrew.
-1. latex is basictex via homebrew casks. This gets installed in /usr/local/texlive/, but its home directory (found via `tlmgr conf` is '~/Library/texmf/tex/')
+1. latex is MacTeX via homebrew casks. This gets installed in /usr/local/texlive/, but its home directory (found via `tlmgr conf` is '~/Library/texmf/tex/')
 
 ## Kevin Healy's templates
 
@@ -27,5 +27,7 @@ sudo tlmgr install biblatex-chicago
 sudo tlmgr install biblatex
 
 sudo tlmgr install logreq
+
+Comment out `\input{vc}` and `\thispagestyle{kjhgit}`, per [this](https://github.com/kjhealy/pandoc-templates/issues/1).
 
 vc from [here](http://ctan.mirrorcatalogs.com/help/Catalogue/entries/vc.html).
