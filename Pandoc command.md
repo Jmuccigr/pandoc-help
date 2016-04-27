@@ -2,7 +2,7 @@
 
 I'm assuming here that you're using [LibreOffice](http://libreoffice.org/). If not, you'll have to find the appropriate directory for the command in #1 below.
 
-1. Bonus: Since I'm keeping all my bibliography in one .bib file, I've added an alias to the pandoc command that includes that bibliography switch to specify the .bib file and the citeproc command:
+1. Bonus: Since I'm keeping all my bibliography in one .bib file, I've added an alias to the pandoc command that includes that bibliography switch to specify the bibliography file and the citeproc command:
 
 `alias pandoc='pandoc --reference-odt=/Users/username/Library/Application\ Support/LibreOffice/4/user/template/Your_template.ott --bibliography=~/Documents/My\ Library.json'`
 
