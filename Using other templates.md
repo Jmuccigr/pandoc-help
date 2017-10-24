@@ -3,6 +3,8 @@
 ## My set-up
 1. pandoc via homebrew.
 1. latex is MacTeX via homebrew casks. This gets installed in /usr/local/texlive/, but its home directory (found via `tlmgr conf` is '~/Library/texmf/tex/')
+1. Fork pandoc-templates folder on github and make changes there.
+1. Symlink my versions into `~/.pandoc/templates` where pandoc will automatically look, as it's the datadir.
 
 ## Kevin Healy's templates
 
